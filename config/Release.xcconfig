@@ -1,0 +1,13 @@
+//
+//  Release.xcconfig
+//  demo
+//
+//  Created by  joy on 2020/7/8.
+//  Copyright © 2020  joy. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "Flutter.xcconfig"
+#include "Pods/Target Support Files/Pods-FlutterMixed/Pods-FlutterMixed.debug.xcconfig"
+FLUTTER_BUILD_MODE=release

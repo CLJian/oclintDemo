@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="oclint-0.13"><file name="/Users/joy/Desktop/demo2/demo/ViewController.m">
+<violation begincolumn="1" endcolumn="142" beginline="19" endline="19" priority="5" rule="long line" ruleset="size" >
+Line with 142 characters exceeds limit of 100
+</violation>
+</file>
+
+<file name="/Users/joy/Desktop/demo2/demo/AppDelegate.m">
+<violation begincolumn="1" endcolumn="110" beginline="18" endline="18" priority="5" rule="long line" ruleset="size" >
+Line with 110 characters exceeds limit of 100
+</violation>
+</file>
+
+<file name="/Users/joy/Desktop/demo2/demo/AppDelegate.m">
+<violation begincolumn="1" endcolumn="192" beginline="27" endline="27" priority="5" rule="long line" ruleset="size" >
+Line with 192 characters exceeds limit of 100
+</violation>
+</file>
+
+<file name="/Users/joy/Desktop/demo2/demo/AppDelegate.m">
+<violation begincolumn="1" endcolumn="120" beginline="30" endline="30" priority="5" rule="long line" ruleset="size" >
+Line with 120 characters exceeds limit of 100
+</violation>
+</file>
+
+<file name="/Users/joy/Desktop/demo2/demo/AppDelegate.m">
+<violation begincolumn="1" endcolumn="115" beginline="34" endline="34" priority="5" rule="long line" ruleset="size" >
+Line with 115 characters exceeds limit of 100
+</violation>
+</file>
+
+<file name="/Users/joy/Desktop/demo2/demo/AppDelegate.m">
+<violation begincolumn="1" endcolumn="153" beginline="36" endline="36" priority="5" rule="long line" ruleset="size" >
+Line with 153 characters exceeds limit of 100
+</violation>
+</file>
+
+<file name="/Users/joy/Desktop/demo2/demo/AppDelegate.m">
+<violation begincolumn="1" endcolumn="116" beginline="37" endline="37" priority="5" rule="long line" ruleset="size" >
+Line with 116 characters exceeds limit of 100
+</violation>
+</file>
+
+<file name="/Users/joy/Desktop/demo2/demo/AppDelegate.m">
+<violation begincolumn="108" endcolumn="125" beginline="27" endline="27" priority="5" rule="long variable name" ruleset="naming" >
+Length of variable name `connectingSceneSession` is 22, which is longer than the threshold of 20
+</violation>
+</file>
+
+<file name="/Users/joy/Desktop/demo2/demo/SceneDelegate.m">
+<violation begincolumn="1" endcolumn="133" beginline="18" endline="18" priority="5" rule="long line" ruleset="size" >
+Line with 133 characters exceeds limit of 100
+</violation>
+</file>
+
+<file name="/Users/joy/Desktop/demo2/demo/SceneDelegate.m">
+<violation begincolumn="1" endcolumn="118" beginline="19" endline="19" priority="5" rule="long line" ruleset="size" >
+Line with 118 characters exceeds limit of 100
+</violation>
+</file>
+
+<file name="/Users/joy/Desktop/demo2/demo/SceneDelegate.m">
+<violation begincolumn="1" endcolumn="112" beginline="20" endline="20" priority="5" rule="long line" ruleset="size" >
+Line with 112 characters exceeds limit of 100
+</violation>
+</file>
+
+<file name="/Users/joy/Desktop/demo2/demo/SceneDelegate.m">
+<violation begincolumn="1" endcolumn="143" beginline="21" endline="21" priority="5" rule="long line" ruleset="size" >
+Line with 143 characters exceeds limit of 100
+</violation>
+</file>
+
+<file name="/Users/joy/Desktop/demo2/demo/SceneDelegate.m">
+<violation begincolumn="1" endcolumn="112" beginline="28" endline="28" priority="5" rule="long line" ruleset="size" >
+Line with 112 characters exceeds limit of 100
+</violation>
+</file>
+
+<file name="/Users/joy/Desktop/demo2/demo/SceneDelegate.m">
+<violation begincolumn="1" endcolumn="137" beginline="29" endline="29" priority="5" rule="long line" ruleset="size" >
+Line with 137 characters exceeds limit of 100
+</violation>
+</file>
+
+<file name="/Users/joy/Desktop/demo2/demo/SceneDelegate.m">
+<violation begincolumn="1" endcolumn="110" beginline="35" endline="35" priority="5" rule="long line" ruleset="size" >
+Line with 110 characters exceeds limit of 100
+</violation>
+</file>
+
+<file name="/Users/joy/Desktop/demo2/demo/SceneDelegate.m">
+<violation begincolumn="1" endcolumn="112" beginline="53" endline="53" priority="5" rule="long line" ruleset="size" >
+Line with 112 characters exceeds limit of 100
+</violation>
+</file>
+
+</pmd>

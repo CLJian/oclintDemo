@@ -46,9 +46,6 @@
 		A81807AC24B4283F0008DD85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A81807AE24B4283F0008DD85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A81807AF24B4283F0008DD85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A8FDBA3324B5925E00040F4C /* Flutter.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Flutter.xcconfig; sourceTree = "<group>"; };
-		A8FDBA3424B5927000040F4C /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
-		A8FDBA3524B5928000040F4C /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		DBD6ADC8F24FE6A9CA8C1AF6 /* Pods-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo.debug.xcconfig"; path = "Target Support Files/Pods-demo/Pods-demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,7 +73,6 @@
 		A818079124B4283A0008DD85 = {
 			isa = PBXGroup;
 			children = (
-				A8FDBA3124B5921300040F4C /* config */,
 				A818079C24B4283A0008DD85 /* demo */,
 				A818079B24B4283A0008DD85 /* Products */,
 				659ED7B7CD3BF23BBF8FD70B /* Pods */,
@@ -110,16 +106,6 @@
 			path = demo;
 			sourceTree = "<group>";
 		};
-		A8FDBA3124B5921300040F4C /* config */ = {
-			isa = PBXGroup;
-			children = (
-				A8FDBA3324B5925E00040F4C /* Flutter.xcconfig */,
-				A8FDBA3424B5927000040F4C /* Debug.xcconfig */,
-				A8FDBA3524B5928000040F4C /* Release.xcconfig */,
-			);
-			path = config;
-			sourceTree = "<group>";
-		};
 		EE95178817FCE89C2BFF8C1D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,7 +126,6 @@
 				A818079724B4283A0008DD85 /* Frameworks */,
 				A818079824B4283A0008DD85 /* Resources */,
 				5483356978532C36AB579178 /* [CP] Embed Pods Frameworks */,
-				A8FDBA3624B5932500040F4C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -258,23 +243,6 @@
 			shellScript = "cd ${SRCROOT}\nxcodebuild -scheme demo -workspace demo.xcworkspace clean && xcodebuild -scheme demo -workspace demo.xcworkspace -configuration Debug | xcpretty -r json-compilation-database -o compile_commands.json && oclint-json-compilation-database -e Pods  -- -report-type xcode\n-rc=MINIMUM_CASES_IN_SWITCH=3 \\\n-rc=CYCLOMATIC_COMPLEXITY=10 \\\n-rc=LONG_CLASS=700 \\\n-rc=LONG_LINE=200 \\\n-rc=NCSS_METHOD=40 \\\n-rc=NESTED_BLOCK_DEPTH=5 \\\n-rc=TOO_MANY_FIELDS=20 \\\n-rc=TOO_MANY_METHODS=30 \\\n-rc=TOO_MANY_PARAMETERS=6\n\n";
 			showEnvVarsInLog = 0;
 		};
-		A8FDBA3624B5932500040F4C /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build\n\"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed\n";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -313,7 +281,6 @@
 /* Begin XCBuildConfiguration section */
 		A81807B124B4283F0008DD85 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8FDBA3424B5927000040F4C /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -373,7 +340,6 @@
 		};
 		A81807B224B4283F0008DD85 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8FDBA3524B5928000040F4C /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -427,7 +393,7 @@
 		};
 		A81807B424B4283F0008DD85 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8FDBA3424B5927000040F4C /* Debug.xcconfig */;
+			baseConfigurationReference = DBD6ADC8F24FE6A9CA8C1AF6 /* Pods-demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -448,7 +414,7 @@
 		};
 		A81807B524B4283F0008DD85 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8FDBA3524B5928000040F4C /* Release.xcconfig */;
+			baseConfigurationReference = 9757B1A966E2D4B3410DC900 /* Pods-demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
